@@ -637,6 +637,14 @@
         {
           "alias": "humidity",
           "yaxis": 2
+        },
+        {
+          "alias": "PM2.5",
+          "yaxis": 1
+        },
+        {
+          "alias": "PM10",
+          "yaxis": 2
         }
       ],
       "spaceLength": 10,
@@ -752,7 +760,7 @@
       "yaxes": [
         {
           "$$hashKey": "object:37",
-          "decimals": 0,
+          "decimals": 1,
           "format": "conμgm3",
           "label": "",
           "logBase": 1,
@@ -762,24 +770,25 @@
         },
         {
           "$$hashKey": "object:38",
-          "decimals": 0,
-          "format": "humidity",
+          "decimals": 1,
+          "format": "conμgm3",
           "label": "",
           "logBase": 1,
-          "max": "100",
-          "min": "0",
+          "max": null,
+          "min": null,
           "show": true
         }
       ],
       "yaxis": {
-        "align": false,
-        "alignLevel": null
+        "align": true,
+        "alignLevel": 0
       }
     },
     {
       "aliasColors": {
         "humidity": "semi-dark-blue",
-        "temperature": "light-green"
+        "pressure": "light-blue",
+        "temperature": "dark-green"
       },
       "bars": false,
       "dashLength": 10,
@@ -819,6 +828,10 @@
       "seriesOverrides": [
         {
           "alias": "humidity",
+          "yaxis": 2
+        },
+        {
+          "alias": "temperature",
           "yaxis": 2
         }
       ],
@@ -868,6 +881,44 @@
             ]
           ],
           "tags": []
+        },
+        {
+          "alias": "temperature",
+          "groupBy": [
+            {
+              "params": [
+                "5m"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "linear"
+              ],
+              "type": "fill"
+            }
+          ],
+          "hide": false,
+          "measurement": "feinstaub",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "B",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "BME280_temperature"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
         }
       ],
       "thresholds": [],
@@ -891,7 +942,7 @@
       "yaxes": [
         {
           "$$hashKey": "object:37",
-          "decimals": 1,
+          "decimals": 0,
           "format": "pressurehpa",
           "label": "",
           "logBase": 1,
@@ -901,12 +952,12 @@
         },
         {
           "$$hashKey": "object:38",
-          "decimals": 0,
-          "format": "humidity",
+          "decimals": 1,
+          "format": "celsius",
           "label": "",
           "logBase": 1,
-          "max": "100",
-          "min": "0",
+          "max": null,
+          "min": null,
           "show": true
         }
       ],
@@ -1632,5 +1683,5 @@
   "timezone": "Europe/Warsaw",
   "title": "graphs.skowronski.cloud",
   "uid": "zBlCiep7z",
-  "version": 7
+  "version": 8
 }
