@@ -952,15 +952,15 @@
                 "value": 18
               },
               {
-                "color": "semi-dark-green",
+                "color": "light-green",
                 "value": 22
               },
               {
-                "color": "semi-dark-yellow",
+                "color": "light-yellow",
                 "value": 28
               },
               {
-                "color": "semi-dark-red",
+                "color": "light-red",
                 "value": 32
               }
             ]
@@ -1046,7 +1046,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "semi-dark-green",
+                "color": "light-blue",
                 "value": null
               },
               {
@@ -1058,7 +1058,7 @@
                 "value": 1000
               },
               {
-                "color": "semi-dark-orange",
+                "color": "dark-orange",
                 "value": 2000
               },
               {
@@ -1150,20 +1150,20 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "dark-yellow",
+                "color": "light-yellow",
                 "value": null
               },
               {
-                "color": "semi-dark-green",
+                "color": "light-green",
                 "value": 30
               },
               {
-                "color": "semi-dark-blue",
+                "color": "light-blue",
                 "value": 50
               }
             ]
           },
-          "unit": "percent"
+          "unit": "humidity"
         },
         "overrides": []
       },
@@ -1632,5 +1632,5 @@
   "timezone": "Europe/Warsaw",
   "title": "graphs.skowronski.cloud",
   "uid": "zBlCiep7z",
-  "version": 6
+  "version": 7
 }
