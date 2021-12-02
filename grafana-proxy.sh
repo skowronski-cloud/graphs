@@ -11,10 +11,20 @@ function download() {
 
 # C10 inside
 ## Study
-### gauges
-download c10_inside_study_temp   'ZvAMlXp7k/c10-inside?panelId=8&from=now-6h&to=now&width=720&height=200' 
-download c10_inside_study_co2    'ZvAMlXp7k/c10-inside?panelId=6&from=now-6h&to=now&width=720&height=200'
-download c10_inside_study_humid  'ZvAMlXp7k/c10-inside?panelId=7&from=now-6h&to=now&width=720&height=200' 
+### stats
+download c10_study_temp      'zBlCiep7z/graphs-skowronski-cloud?from=now-6h&to=now&width=720&height=200&panelId=8' 
+download c10_study_co2       'zBlCiep7z/graphs-skowronski-cloud?from=now-6h&to=now&width=720&height=200&panelId=6'
+download c10_study_humid     'zBlCiep7z/graphs-skowronski-cloud?from=now-6h&to=now&width=720&height=200&panelId=7' 
 ### graphs
-download c10_inside_study_graph1 'ZvAMlXp7k/c10-inside?panelId=2&from=now-6h&to=now&width=720&height=480'
-download c10_inside_study_graph2 'ZvAMlXp7k/c10-inside?panelId=3&from=now-6h&to=now&width=720&height=480'
+download c10_study_graph1    'zBlCiep7z/graphs-skowronski-cloud?from=now-6h&to=now&width=720&height=480&panelId=2'
+download c10_study_graph2    'zBlCiep7z/graphs-skowronski-cloud?from=now-6h&to=now&width=720&height=480&panelId=3'
+## Outside
+### status
+download c10_outside_temp    'zBlCiep7z/graphs-skowronski-cloud?from=now-6h&to=now&width=720&height=200&panelId=13' 
+download c10_outside_humid   'zBlCiep7z/graphs-skowronski-cloud?from=now-6h&to=now&width=720&height=200&panelId=15' 
+download c10_outside_press   'zBlCiep7z/graphs-skowronski-cloud?from=now-6h&to=now&width=720&height=200&panelId=16' 
+download c10_outside_pm25    'zBlCiep7z/graphs-skowronski-cloud?from=now-6h&to=now&width=720&height=200&panelId=14' 
+### graphs
+download c10_outside_graph1  'zBlCiep7z/graphs-skowronski-cloud?from=now-6h&to=now&width=720&height=480&panelId=17'
+download c10_outside_graph2  'zBlCiep7z/graphs-skowronski-cloud?from=now-6h&to=now&width=720&height=480&panelId=19'
+download c10_outside_graph3  'zBlCiep7z/graphs-skowronski-cloud?from=now-6h&to=now&width=720&height=480&panelId=18'
