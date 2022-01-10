@@ -1,33 +1,6 @@
-@font-face {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://skowron.ski/assets/fonts/Ubuntu.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'Ubuntu Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://skowron.ski/assets/fonts/UbuntuMono.woff2) format('woff2');
-}
-html {
-  font-family: 'Ubuntu', sans-serif;
-  background: black;
-  color:  white;
-  padding: 10px;
-}
 img.graph {
   width:  360px;
 }
 li {
   padding: 2px;
-}
-a {
-  color:  gold;
-  padding: 2px;
-  text-decoration: none;
-}
-a:hover {
-  color: black;
-  background: gold;
 }
