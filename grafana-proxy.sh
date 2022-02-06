@@ -36,3 +36,8 @@ download c10_outside_pm25    'zBlCiep7z/graphs-skowronski-cloud?from=now-6h&to=n
 download c10_outside_graph1  'zBlCiep7z/graphs-skowronski-cloud?from=now-6h&to=now&width=720&height=480&panelId=17'
 download c10_outside_graph2  'zBlCiep7z/graphs-skowronski-cloud?from=now-6h&to=now&width=720&height=480&panelId=19'
 download c10_outside_graph3  'zBlCiep7z/graphs-skowronski-cloud?from=now-6h&to=now&width=720&height=480&panelId=18'
+# Network
+## From Rlyeh
+download from_rlyeh_to_ext   'mE68uEo7k/sauron-at-rlyeh?from=now-6h&to=now&width=720&height=500&panelId=2'
+download from_rlyeh_to_vsw   'mE68uEo7k/sauron-at-rlyeh?from=now-6h&to=now&width=720&height=500&panelId=3'
+download from_rlyeh_to_prv   'mE68uEo7k/sauron-at-rlyeh?from=now-6h&to=now&width=720&height=500&panelId=4'
